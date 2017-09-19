@@ -31,7 +31,7 @@ class MyBlowfish {
     
     public static void main(String[] args) throws Exception {
 		MyBlowfish b = new MyBlowfish();
-		String ct = b.encrypt("nilesh", "mykey123");
+		String ct = b.encrypt("nilesh", "12345678");
 		System.out.println(ct);
 	}
 }
