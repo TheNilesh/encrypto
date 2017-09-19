@@ -21,7 +21,7 @@ def decrypt(ciphertext, key):
 
 def main():
     pt = 'nilesh'
-    print(encrypt(pt, 'mykey123'))
+    print(encrypt(pt, '12345678'))
 
 if __name__ == '__main__':
     main()
